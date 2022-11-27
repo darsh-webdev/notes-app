@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #47b5ff;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.app-name {
+  color: #dff6ff;
+  position: fixed;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add {
+  background-color: #256d85;
+  color: #dff6ff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.7rem 1rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #06283d;
+}
+
+.note {
+  width: 400px;
+  height: 444px;
+  background-color: #dff6ff;
+  margin: 40px 20px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.note .tools {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #256d85;
+}
+
+.tools {
+  position: relative;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #dff6ff;
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.note .tools button:hover {
+  color: #06283d;
+}
+
+.note-title {
+  background-color: #dff6ff;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.note-header {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #dff6ff;
+}
+
+.mode {
+  color: #dff6ff;
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
+}
+
+.note .main {
+  height: 400px;
+  width: 400px;
+  color: #06283d;
+  font-size: 1.2rem;
+  overflow: hidden;
+  background-color: #dff6ff;
+  margin-bottom: 20px;
+}
+
+.note textarea {
+  border: none;
+  height: 400px;
+  width: 400px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  outline: none;
+  padding: 0;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.note .hidden {
+  display: none;
+}
